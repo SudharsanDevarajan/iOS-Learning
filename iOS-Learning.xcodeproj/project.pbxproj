@@ -8,14 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A5469672AB189B900B755F5 /* iOS_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5469662AB189B900B755F5 /* iOS_LearningApp.swift */; };
-		0A5469692AB189B900B755F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5469682AB189B900B755F5 /* ContentView.swift */; };
 		0A54696B2AB189BB00B755F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A54696A2AB189BB00B755F5 /* Assets.xcassets */; };
-		0A54696E2AB189BB00B755F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A54696D2AB189BB00B755F5 /* Preview Assets.xcassets */; };
-		0A5469702AB189BB00B755F5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A54696F2AB189BB00B755F5 /* Persistence.swift */; };
-		0A5469732AB189BB00B755F5 /* iOS_Learning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A5469712AB189BB00B755F5 /* iOS_Learning.xcdatamodeld */; };
-		0A54697D2AB189BB00B755F5 /* iOS_LearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A54697C2AB189BB00B755F5 /* iOS_LearningTests.swift */; };
-		0A5469872AB189BB00B755F5 /* iOS_LearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5469862AB189BB00B755F5 /* iOS_LearningUITests.swift */; };
-		0A5469892AB189BB00B755F5 /* iOS_LearningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5469882AB189BB00B755F5 /* iOS_LearningUITestsLaunchTests.swift */; };
 		0A5469972AB189F000B755F5 /* DoTryCatchThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5469962AB189F000B755F5 /* DoTryCatchThrows.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,16 +32,9 @@
 /* Begin PBXFileReference section */
 		0A5469632AB189B900B755F5 /* iOS-Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5469662AB189B900B755F5 /* iOS_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_LearningApp.swift; sourceTree = "<group>"; };
-		0A5469682AB189B900B755F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0A54696A2AB189BB00B755F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0A54696D2AB189BB00B755F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0A54696F2AB189BB00B755F5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		0A5469722AB189BB00B755F5 /* iOS_Learning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_Learning.xcdatamodel; sourceTree = "<group>"; };
 		0A5469782AB189BB00B755F5 /* iOS-LearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-LearningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A54697C2AB189BB00B755F5 /* iOS_LearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_LearningTests.swift; sourceTree = "<group>"; };
 		0A5469822AB189BB00B755F5 /* iOS-LearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-LearningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A5469862AB189BB00B755F5 /* iOS_LearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_LearningUITests.swift; sourceTree = "<group>"; };
-		0A5469882AB189BB00B755F5 /* iOS_LearningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_LearningUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0A5469962AB189F000B755F5 /* DoTryCatchThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatchThrows.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,8 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				0A5469652AB189B900B755F5 /* iOS-Learning */,
-				0A54697B2AB189BB00B755F5 /* iOS-LearningTests */,
-				0A5469852AB189BB00B755F5 /* iOS-LearningUITests */,
 				0A5469642AB189B900B755F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,40 +84,11 @@
 		0A5469652AB189B900B755F5 /* iOS-Learning */ = {
 			isa = PBXGroup;
 			children = (
-				0A5469952AB189CB00B755F5 /* Concurrency */,
 				0A5469662AB189B900B755F5 /* iOS_LearningApp.swift */,
-				0A5469682AB189B900B755F5 /* ContentView.swift */,
 				0A54696A2AB189BB00B755F5 /* Assets.xcassets */,
-				0A54696F2AB189BB00B755F5 /* Persistence.swift */,
-				0A5469712AB189BB00B755F5 /* iOS_Learning.xcdatamodeld */,
-				0A54696C2AB189BB00B755F5 /* Preview Content */,
+				0A5469952AB189CB00B755F5 /* Concurrency */,
 			);
 			path = "iOS-Learning";
-			sourceTree = "<group>";
-		};
-		0A54696C2AB189BB00B755F5 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				0A54696D2AB189BB00B755F5 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		0A54697B2AB189BB00B755F5 /* iOS-LearningTests */ = {
-			isa = PBXGroup;
-			children = (
-				0A54697C2AB189BB00B755F5 /* iOS_LearningTests.swift */,
-			);
-			path = "iOS-LearningTests";
-			sourceTree = "<group>";
-		};
-		0A5469852AB189BB00B755F5 /* iOS-LearningUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0A5469862AB189BB00B755F5 /* iOS_LearningUITests.swift */,
-				0A5469882AB189BB00B755F5 /* iOS_LearningUITestsLaunchTests.swift */,
-			);
-			path = "iOS-LearningUITests";
 			sourceTree = "<group>";
 		};
 		0A5469952AB189CB00B755F5 /* Concurrency */ = {
@@ -248,7 +203,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A54696E2AB189BB00B755F5 /* Preview Assets.xcassets in Resources */,
 				0A54696B2AB189BB00B755F5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,10 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A5469972AB189F000B755F5 /* DoTryCatchThrows.swift in Sources */,
-				0A5469702AB189BB00B755F5 /* Persistence.swift in Sources */,
-				0A5469692AB189B900B755F5 /* ContentView.swift in Sources */,
 				0A5469672AB189B900B755F5 /* iOS_LearningApp.swift in Sources */,
-				0A5469732AB189BB00B755F5 /* iOS_Learning.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +237,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A54697D2AB189BB00B755F5 /* iOS_LearningTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +244,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A5469892AB189BB00B755F5 /* iOS_LearningUITestsLaunchTests.swift in Sources */,
-				0A5469872AB189BB00B755F5 /* iOS_LearningUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,19 +551,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		0A5469712AB189BB00B755F5 /* iOS_Learning.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				0A5469722AB189BB00B755F5 /* iOS_Learning.xcdatamodel */,
-			);
-			currentVersion = 0A5469722AB189BB00B755F5 /* iOS_Learning.xcdatamodel */;
-			path = iOS_Learning.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 0A54695B2AB189B900B755F5 /* Project object */;
 }
