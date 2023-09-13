@@ -16,6 +16,7 @@
 		0A54697D2AB189BB00B755F5 /* iOS_LearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A54697C2AB189BB00B755F5 /* iOS_LearningTests.swift */; };
 		0A5469872AB189BB00B755F5 /* iOS_LearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5469862AB189BB00B755F5 /* iOS_LearningUITests.swift */; };
 		0A5469892AB189BB00B755F5 /* iOS_LearningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5469882AB189BB00B755F5 /* iOS_LearningUITestsLaunchTests.swift */; };
+		0A5469972AB189F000B755F5 /* DoTryCatchThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5469962AB189F000B755F5 /* DoTryCatchThrows.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		0A5469822AB189BB00B755F5 /* iOS-LearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-LearningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5469862AB189BB00B755F5 /* iOS_LearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_LearningUITests.swift; sourceTree = "<group>"; };
 		0A5469882AB189BB00B755F5 /* iOS_LearningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_LearningUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A5469962AB189F000B755F5 /* DoTryCatchThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatchThrows.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		0A5469652AB189B900B755F5 /* iOS-Learning */ = {
 			isa = PBXGroup;
 			children = (
+				0A5469952AB189CB00B755F5 /* Concurrency */,
 				0A5469662AB189B900B755F5 /* iOS_LearningApp.swift */,
 				0A5469682AB189B900B755F5 /* ContentView.swift */,
 				0A54696A2AB189BB00B755F5 /* Assets.xcassets */,
@@ -131,6 +134,14 @@
 				0A5469882AB189BB00B755F5 /* iOS_LearningUITestsLaunchTests.swift */,
 			);
 			path = "iOS-LearningUITests";
+			sourceTree = "<group>";
+		};
+		0A5469952AB189CB00B755F5 /* Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				0A5469962AB189F000B755F5 /* DoTryCatchThrows.swift */,
+			);
+			path = Concurrency;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5469972AB189F000B755F5 /* DoTryCatchThrows.swift in Sources */,
 				0A5469702AB189BB00B755F5 /* Persistence.swift in Sources */,
 				0A5469692AB189B900B755F5 /* ContentView.swift in Sources */,
 				0A5469672AB189B900B755F5 /* iOS_LearningApp.swift in Sources */,
