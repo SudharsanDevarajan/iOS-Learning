@@ -12,7 +12,7 @@ struct iOS_LearningApp: App {
 
     var body: some Scene {
         WindowGroup {
-            doTryCatchThrowsView()
+            GitHubUser()
         }
     }
 }
