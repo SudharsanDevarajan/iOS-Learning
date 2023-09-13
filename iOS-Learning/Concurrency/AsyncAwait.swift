@@ -7,11 +7,16 @@
 
 import SwiftUI
 
-struct GitHubUser: View {
+enum NetworkError:Error{
+    case invalidUrl
+    case invalidResponse
+    case invalidData
+}
+
+struct AsyncAwait: View {
     
-    let viewModel = NetworkService()
     
-    @State private var user: User?
+    @State private var user: UserProfile?
     
     @State var isShowError: Bool = false
     @State var errorMsg: String = ""
@@ -31,10 +36,7 @@ struct GitHubUser: View {
             
             
             Text(user?.name ?? "Username")
-            Text("\(user?.username ?? "")")
-            
-            
-            
+            Text("\(user?.name ?? "")")
             Text(user?.email ?? "Email")
                 .foregroundColor(.gray)
         }
@@ -43,17 +45,38 @@ struct GitHubUser: View {
         })
         .task {
             do{
-                user = try await viewModel.fetchUser()
+                user = try await fetchUser()
             }catch let error{
                 isShowError = true
                 errorMsg = error.localizedDescription
             }
         }
     }
+    
+    func fetchUser() async throws  -> UserProfile{
+        
+        let endPoint = "https://jsonplaceholder.typicode.com/users/1"
+        guard let url = URL(string: endPoint) else{
+            throw NetworkError.invalidUrl
+        }
+        
+        let (data, response) = try await URLSession.shared.data(from: url)
+        
+        guard let resp = response as? HTTPURLResponse, resp.statusCode == 200 else{
+            throw NetworkError.invalidResponse
+        }
+        
+        do {
+            let result = try JSONDecoder().decode(UserProfile.self, from: data)
+            return result
+        } catch {
+            throw NetworkError.invalidData
+        }
+    }
 }
 
 struct GitHubUser_Previews: PreviewProvider {
     static var previews: some View {
-        GitHubUser()
+        AsyncAwait()
     }
 }

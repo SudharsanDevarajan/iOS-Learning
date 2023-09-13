@@ -10,6 +10,8 @@
 		0A5469672AB189B900B755F5 /* iOS_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5469662AB189B900B755F5 /* iOS_LearningApp.swift */; };
 		0A54696B2AB189BB00B755F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A54696A2AB189BB00B755F5 /* Assets.xcassets */; };
 		0A5469972AB189F000B755F5 /* DoTryCatchThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5469962AB189F000B755F5 /* DoTryCatchThrows.swift */; };
+		0AD6F8652AB1C03800F38A7F /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6F8642AB1C03800F38A7F /* AsyncAwait.swift */; };
+		0AD6F8672AB1D5E300F38A7F /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6F8662AB1D5E300F38A7F /* AsyncLet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		0A5469782AB189BB00B755F5 /* iOS-LearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-LearningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5469822AB189BB00B755F5 /* iOS-LearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-LearningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5469962AB189F000B755F5 /* DoTryCatchThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatchThrows.swift; sourceTree = "<group>"; };
+		0AD6F8642AB1C03800F38A7F /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
+		0AD6F8662AB1D5E300F38A7F /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				0A5469962AB189F000B755F5 /* DoTryCatchThrows.swift */,
+				0AD6F8642AB1C03800F38A7F /* AsyncAwait.swift */,
+				0AD6F8662AB1D5E300F38A7F /* AsyncLet.swift */,
 			);
 			path = Concurrency;
 			sourceTree = "<group>";
@@ -229,6 +235,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A5469972AB189F000B755F5 /* DoTryCatchThrows.swift in Sources */,
+				0AD6F8672AB1D5E300F38A7F /* AsyncLet.swift in Sources */,
+				0AD6F8652AB1C03800F38A7F /* AsyncAwait.swift in Sources */,
 				0A5469672AB189B900B755F5 /* iOS_LearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,7 +392,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iOS-Learning/Preview Content\"";
 				DEVELOPMENT_TEAM = 3P9LUAZ46A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -393,6 +400,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -413,7 +421,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iOS-Learning/Preview Content\"";
 				DEVELOPMENT_TEAM = 3P9LUAZ46A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -422,6 +429,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
